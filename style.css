@@ -6,19 +6,36 @@
 
 :root{
     font-size: 62.5%;
+
+    --body-background: #000;
+    --text-color: #E1E1E6; 
+    --border-color: 1px solid #4A808C;
+    --background-header-input: #06181C;
+    --background-header-button: #065E7C;
+    --background-header-button-hover: #FFF;
+    --text-header-button: #FFF;
+    --text-header-button-hover: #065E7C;
+    --background-thead: #092D38;
+    --background-primary-tr: #06181C;
+    --background-secondary-tr: rgba(6, 22, 27, 0.50);
+    --text-remove: #F75A68;
+    --background-noFavorites: #030B0D;
+    --text-noFavorites: #4E5455;
+    --scrollbar: #06181C;
+    --scrollbar-thumb:#4A808C;
 }
 
 body {
-    background-color: #000;
+    background-color: var(--body-background);
     height: 100vh;     
-    padding: 10rem 1rem 0;
+    padding: 10rem 1rem;
 }
 
 body * {
     font-family: "Roboto", sans-serif;
     font-size: 2rem;
     font-weight: 700;
-    color: #E1E1E6;;
+    color: var(--text-color);
 }
 
 .sr-only {
@@ -36,13 +53,14 @@ body * {
 #app {
     max-width: 112rem;
     margin: auto;
+    padding-bottom: 10rem;
 }
 
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 8.7rem;
+    margin-bottom: 6.5rem;
 }
 
 header img {
@@ -60,9 +78,9 @@ header .search input {
     width: 46.2rem;
     height: 4.8rem;
     padding: 1.6rem;
-    border: 1px solid #4A808C;
+    border: var(--border-color);
     border-radius: .5rem;
-    background: #06181C;
+    background: var(--background-header-input);
 }
 
 header .search input::placeholder {
@@ -76,7 +94,7 @@ header .search button {
     padding: 1.2rem 3.2rem;
     border: none;
     border-radius: .5rem;
-    background: #065E7C;
+    background: var(--background-header-button);
 
     display: flex;
     align-items: center;
@@ -84,23 +102,23 @@ header .search button {
 
     font-size: 1.4rem;
     font-weight: 700;
-    color: #FFF;
+    color: var(--text-header-button);
 
     cursor: pointer;
 }
 
 header .search button:hover {
-    background: #FFF;
-    color:#065E7C;
+    background: var(--background-header-button-hover);
+    color: var(--text-header-button-hover);
 }
 
 header .search button:hover svg g path{
-    fill: #065E7C;
+    fill: var(--text-header-button-hover);
 }
 
 main {
     border-radius: 1rem;
-    border: 1px solid #4A808C;
+    border: var(--border-color);
     overflow: hidden;
 }
 
@@ -127,11 +145,11 @@ table thead th, table tbody td {
 
 ::-webkit-scrollbar {
     width: .7rem; 
-    background-color: #06181C;
+    background-color: var(--scrollbar);
 }
    
 ::-webkit-scrollbar-thumb {
-    background-color: #4A808C;
+    background-color: var(--scrollbar-thumb);
     border-radius: .3rem;
 }
 
@@ -144,8 +162,8 @@ table {
 }
 
 table thead {
-    background: #092D38;
-    border-bottom: 1px solid #4A808C;
+    background: var(--background-thead);
+    border-bottom: var(--border-color);
 }
 
 table thead th {
@@ -154,15 +172,15 @@ table thead th {
 }
 
 table tbody tr:nth-child(even) {
-    background-color: #06181C;
+    background-color: var(--background-primary-tr);
 }
 
 table tbody tr:nth-child(odd) {
-    background-color: rgba(6, 22, 27, 0.50);
+    background-color: var(--background-secondary-tr);
 }
 
 table tbody tr {
-    border-top: 1px solid #4A808C;
+    border-top: var(--border-color);
 }
 table tbody td {
     padding: 2.4rem 4rem;
@@ -191,12 +209,12 @@ table tbody .user span {
 table tbody button {
     border: none;
     background: none;
-    color: #F75A68;
+    color: var(--text-remove);
     cursor: pointer;
 }
 
 .noFavorites {
-    background: #030B0D;
+    background: var(--background-noFavorites);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -211,7 +229,7 @@ table tbody button {
 .noFavorites h2 {
     font-size: 4rem;
     font-weight: 700;
-    color: #4E5455;
+    color: var(--text-noFavorites);
 }
 
 .hide {

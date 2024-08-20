@@ -63,7 +63,7 @@ export class FavoriteViews extends Favorites {
     constructor(root) {
         super(root)  
         this.update()  
-        this.onAdd()      
+        this.onAdd()    
     }  
 
     onAdd() {
@@ -73,6 +73,7 @@ export class FavoriteViews extends Favorites {
             const { value } = this.root.querySelector('.search input')
 
             this.add(value)
+            search.value = ""
         }
     }
 
@@ -107,7 +108,7 @@ export class FavoriteViews extends Favorites {
         tr.innerHTML = 
                     `<td class="user">
                         <img src="https://github.com/LucasFernandesM.png" alt="Imagem de usuário">
-                        <a href="https://github.com/LucasFernandesM">
+                        <a href="https://github.com/LucasFernandesM" target="_blank">
                             <p>Lucas Fernandes</p>
                             <span>/LucasFernandesM</span>
                         </a>
