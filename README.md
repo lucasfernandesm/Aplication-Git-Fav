@@ -6,9 +6,9 @@ With a simple search using the username of the desired profile, the user has a l
 </p>
 
 <p align="center">
-  <a href="### 🛠 Tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="### 🏁 Projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#memo-licença">Licença</a>
+  <a href="#-Technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-Project">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#memo-license">License</a>
 </p>
 
 <h1 align="center">
@@ -19,21 +19,24 @@ With a simple search using the username of the desired profile, the user has a l
   <img alt="GitFav project" src="./assets/GitFavBanner2.png" width="700"/>
 </h1>
 
-### 🛠 Tecnologias
+## 🛠 Technologies
 
-
-As seguintes ferramentas foram usadas na construção do projeto:
+This project was developed with the following technologies:
 - [HTML]
 - [CSS]
 - [JavaScript]
 
+## 🏁 Project
 
-### 🏁 Projeto
+  - It's purpose is to create a list of the user's favorite profiles </br>
+  - Search carried out in a simple way, typing username of the desired profile and clicking favorite </br>
+  - If the username entered does not exist or is entered twice, the application generates an alert </br>
+  - After to favorite, we have photo, username, number of followers, number of repositories and link to profile visible on the screen </br>
+  - Github API was used to fetch information from users and make it available in the application </br>
+  - Project developed during the Full-stack Training course via the platform [Rocketseat](https://app.rocketseat.com.br) </br>
 
+## :memo: License
 
-  - Tem o objetivo de criar uma lista com os perfis favoritos do usuário </br>
-  - Pesquisa realizada de forma simples, digitando username do perfil desejado e clicando em favoritar </br>
-  - Caso o username digitado não exista ou seja digitado duas vezes, a aplicação gera um alerta </br>
-  - Após favoritado, temos foto, nome de usuário, número de seguidores, número de reposiotórios e link para perfil visiveis na tela </br>
-  - Foi utilizado API do Github para buscar informações dos usuários e disponibilizar na aplicação </br>
-  - Projeto desenvolvido durante o curso Formação Full-stack pela plataforma [Rocketseat](https://app.rocketseat.com.br) </br>
+This project is under the MIT license.
+
+---
