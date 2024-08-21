@@ -11,6 +11,7 @@ With a simple search using the username of the desired profile, the user has a l
   <a href="#memo-license">License</a>
 </p>
 
+<br><br>
 <h1 align="center">
   <img alt="GitFav project" src="./assets/GitFavBanner.png" width="700"/>
 </h1>
@@ -19,6 +20,7 @@ With a simple search using the username of the desired profile, the user has a l
   <img alt="GitFav project" src="./assets/GitFavBanner2.png" width="700"/>
 </h1>
 
+<br><br>
 ## 🛠 Technologies
 
 This project was developed with the following technologies:
@@ -27,6 +29,7 @@ This project was developed with the following technologies:
 - [JavaScript]
 - [Git and Github]
 
+<br><br>
 ## 🏁 Project
 
   - It's purpose is to create a list of the user's favorite profiles </br>
@@ -36,6 +39,7 @@ This project was developed with the following technologies:
   - Github API was used to fetch information from users and make it available in the application </br>
   - Project developed during the Full-stack Training course via the platform [Rocketseat](https://app.rocketseat.com.br) </br>
 
+<br><br>
 ## :memo: License
 
 This project is under the MIT license.
